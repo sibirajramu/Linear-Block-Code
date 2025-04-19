@@ -1,12 +1,19 @@
-###Linear-Block-Code
-Aim
+# **Linear-Block-Code**
+
+## *Aim*
 To implement Linear Block Coding in Python using a generator matrix and perform encoding, decoding, syndrome calculation, and error correction.
 
-Tools Required
-Python: For implementing the Linear Block Coding algorithm.
-NumPy: For matrix manipulation and numerical operations.
-Program
-```
+---
+
+## *Tools Required*
+- *Python*: For implementing the Linear Block Coding algorithm.
+- *NumPy*: For matrix manipulation and numerical operations.
+
+---
+
+## *Program*
+
+
 import numpy as np
 
 pb = [] # Parity matrix
@@ -110,7 +117,17 @@ add = err + rc
 add = np.array(add)
 add1 = add % 2
 print(f"The correct codeword is : " + " " .join(map(str,add1)))  
-```
-OUTPUT
 
 
+
+## *OUTPUT*
+![Screenshot 2025-04-12 154635](https://github.com/user-attachments/assets/bd4902f3-718d-4b52-aef8-4006af1310e7)
+
+![Screenshot 2025-04-12 154651](https://github.com/user-attachments/assets/078b194b-41f8-450b-8e4a-071de848af1c)
+
+![WhatsApp Image 2025-04-12 at 17 05 07_6fcbe5e1](https://github.com/user-attachments/assets/de58941b-83d5-42af-909e-b57f4388f8f7)
+![WhatsApp Image 2025-04-12 at 17 05 07_d6095534](https://github.com/user-attachments/assets/583d29a0-1c47-4502-a611-3edc066ebea6)
+![WhatsApp Image 2025-04-12 at 17 05 17_906d8b8f](https://github.com/user-attachments/assets/de94cc49-fe00-4ba5-b0f3-29dc62afa0fd)
+
+## *Results*
+   Hence, Linear Block Coding was successfully implemented and verified using Python.
