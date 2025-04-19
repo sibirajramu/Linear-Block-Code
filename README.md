@@ -12,7 +12,7 @@ To implement Linear Block Coding in Python using a generator matrix and perform 
 ---
 
 ## *Program*
-
+```
 
 import numpy as np
 
@@ -118,7 +118,7 @@ add = np.array(add)
 add1 = add % 2
 print(f"The correct codeword is : " + " " .join(map(str,add1)))  
 
-
+```
 
 ## *OUTPUT*
 ![Screenshot 2025-04-12 154635](https://github.com/user-attachments/assets/bd4902f3-718d-4b52-aef8-4006af1310e7)
